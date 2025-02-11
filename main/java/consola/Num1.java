@@ -152,8 +152,8 @@ public class Num1 extends javax.swing.JFrame {
     private void btnHallarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnHallarActionPerformed
         
         int a= Integer.parseInt(txt1.getText());
-        int b= Integer.parseInt(txt1.getText());
-        int c= Integer.parseInt(txt1.getText());
+        int b= Integer.parseInt(txt2.getText());
+        int c= Integer.parseInt(txt3.getText());
         int mayor=Math.max(a,Math.max(b, c));
         
         txtA.setText("El numero mayor es: "+mayor);
